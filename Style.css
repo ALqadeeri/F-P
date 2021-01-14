@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: ; */
+    font-family: sans-serif;
 }
 
 #header{
@@ -19,18 +19,15 @@
 .logo{
     margin-top: 30px;
     width: 100px;
-    /* float:right; */
 }
 
 .header-text{
     max-width: 350px;
     margin-top: 140px;
-    /* float:right; */
 }
 
 h1{
-    font-size: 40px;
-    /* float:right; */
+    font-size: 34px;
 }
 
 .square{
@@ -39,7 +36,6 @@ h1{
     display: inline-block;
     background: red;
     margin: 15px 0;
-    /* float:right; */
     
 }
 
@@ -50,7 +46,6 @@ h1{
     border: 2px solid red;
     font-weight: bold;
     cursor: pointer;
-    /* float:right; */
 }
 
 p{
@@ -95,7 +90,7 @@ p{
     position: fixed;
     right: -250px;
     top: 0;
-    background: red;
+    background: rgb(197, 6, 6);
     z-index: 2;
     transition: .5s;
 }
